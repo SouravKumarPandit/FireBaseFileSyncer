@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FireBaseFileSyncer</string>
+    <string name="lable_below_account">Firebase File Sync</string>
+    <string name="already_user_click_here">Already a member ? click here </string>
+    <string name="new_user_click_here">new user ? click here </string>
+    <string name="provider_name">File list</string>
+</resources>

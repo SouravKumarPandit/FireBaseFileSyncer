@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Network Options" />
+    <SwitchPreference
+        android:textColor="@color/colorPrimaryDark"
+        android:title="Sync only on wifi" />
+    <PreferenceCategory android:title="Other Options" />
+    <CheckBoxPreference
+        android:key="use_sync"
+        android:summary="turn of this for limited mobile datapack"
+        android:title="Metered conection" />
+    <CheckBoxPreference
+        android:key="use_sync"
+        android:summary="do you want to sync media file with the picture"
+        android:checked="true"
+        android:title="Disable media file" />
+</PreferenceScreen>

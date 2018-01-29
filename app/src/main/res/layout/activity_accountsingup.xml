@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#2E3A52"
+
+    tools:context="com.centrahub.focus.sourav.firebasefilesyncer.FireBaseLoginActivity">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/head_title"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SING UP now !"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/account_et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:text="User"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/account_et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:text="+91 987456133"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+
+            android:gravity="center"
+
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@android:color/white" />
+        <EditText
+            android:id="@+id/account_et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+
+            android:gravity="center"
+
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:text="soupandit@gmail.com"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/account_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+            android:gravity="center"
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:text="qwertyqwerty"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+
+            <Button
+                android:id="@+id/account_sing_up"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:background="@drawable/normal_background"
+
+                android:text="Sing up"
+                android:textColor="@android:color/white" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+        <TextView
+
+            android:id="@+id/user_is_old"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:typeface="sans"
+            android:shadowColor="@color/material_gray_500"
+            android:text="@string/already_user_click_here"
+
+            android:textColor="@color/creamColor" />
+
+
+    </LinearLayout>
+</ScrollView>
